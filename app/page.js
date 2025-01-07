@@ -5,7 +5,7 @@ import OSHeader from "@/components/OSHeader";
 import { useState } from "react";
 
 export default function Home() {
-  const [assignment, setAssignment] = useState("frontend");
+  const [assignment, setAssignment] = useState("Frontend Assignment");
   return (
     <div className="flex flex-col justify-around font-[family-name:var(--font-ibm-plex-mono)] h-full">
       <main className="flex flex-col basis-4/5 border-x-8 border-b-8 border-black bg-[#F8D2CF] mx-8">
